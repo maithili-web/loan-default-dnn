@@ -1,0 +1,54 @@
+{
+  "gradient_check_max_rel_error": 9.163966860353137e-09,
+  "default_rate": 0.14865,
+  "best_epoch": 32,
+  "dnn": {
+    "roc_auc": 0.9035997345235295,
+    "pr_auc": 0.7209180058815414,
+    "threshold": 0.6799999999999999,
+    "precision": 0.6191446028513238,
+    "recall": 0.6816143497757847,
+    "f1": 0.6488794023479189,
+    "confusion_matrix": [
+      [
+        2367,
+        187
+      ],
+      [
+        142,
+        304
+      ]
+    ]
+  },
+  "logistic_regression": {
+    "roc_auc": 0.9063791607993792,
+    "pr_auc": 0.7258668292178445,
+    "threshold": 0.7,
+    "precision": 0.6042471042471043,
+    "recall": 0.7017937219730942,
+    "f1": 0.6493775933609959,
+    "confusion_matrix": [
+      [
+        2349,
+        205
+      ],
+      [
+        133,
+        313
+      ]
+    ]
+  },
+  "permutation_importance": {
+    "emi_to_income": 0.20482668530152298,
+    "credit_score": 0.12918854096800594,
+    "past_delinquencies": 0.0048672442067486665,
+    "loan_amount": 0.003151655189608582,
+    "age": 0.0029328829129371403,
+    "loan_purpose": 0.0022539163046799704,
+    "home_ownership": 0.0021457592240783363,
+    "employment_years": 0.0017960045088861287,
+    "num_credit_lines": 0.0005434190981525866,
+    "annual_income": -0.0001885725723475229,
+    "loan_term_months": -0.00022439082631300344
+  }
+}
